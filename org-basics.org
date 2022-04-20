@@ -1,0 +1,56 @@
+* Org-Mode basics!
+** Introduction
+** Lists
+*** Unordered list
+    + create init.el
+    + add melpa
+    + install gnutls lib in ubuntu
+    + install use-package
+    + install evil-mode
+    + install org-mode
+    + setup relative number linum-relative
+*** Ordered list
+    1. this
+    2. is
+    3. an
+    4. ordered
+    5. list
+       + Regular item
+    6. Another item
+** Tables
+
+   |-----------+-----------|
+   |     Input |    Output |
+   |-----------+-----------|
+   |         1 |         1 |
+   |         2 |         2 |
+   |         8 |         8 |
+   | 999999999 | 999999999 |
+   |-----------+-----------|
+
+** Styling
+
+   |---------------+-----------------|
+   | Formating     | Example         |
+   |---------------+-----------------|
+   | Boldface      | *boldface*      |
+   | Italic        | /italic/        |
+   | Underline     | _underlined_    |
+   | Verbatim      | =verbatim=      |
+   | Strikethrough | +strikethrough+ |
+   |---------------+-----------------|
+
+** Links
+
+   [[My /home/yves/.emacs.d/init.el][My .emacs.d/init.el]] <- Link dotfile
+   [[https://github.com/bym-cg][My github]] <- Link to my github page
+   [[/home/yves/Pictures/emacs.jpg]] <- Link to an image (this is w/o description
+   
+** Source Code
+
+   #+BEGIN_SRC emacs-lisp
+     (let ((message-to-print "Hello Youtube!"))
+	  (message message-to-print))
+   #+END_SRC
+
+  
